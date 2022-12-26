@@ -1,6 +1,4 @@
-use {
-    argh::FromArgs,
-  };
+use argh::FromArgs;
 
 #[derive(FromArgs, PartialEq, Debug)]
 /// Run subcommand.

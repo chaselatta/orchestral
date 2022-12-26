@@ -1,6 +1,4 @@
-use {
-  argh::FromArgs,
-};
+use argh::FromArgs;
 
 pub mod dump;
 
@@ -21,7 +19,7 @@ enum Subcommands {
 }
 
 pub fn run_subcommand(args: Commands) {
-  match args.command {
-    Subcommands::Dump(cmd) => cmd.run(),
-  }
+    match args.command {
+        Subcommands::Dump(cmd) => cmd.run(),
+    }
 }

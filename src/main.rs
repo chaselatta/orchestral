@@ -1,7 +1,3 @@
-// use {
-    // argh::FromArgs,
-// };
-
 mod commands;
 
 fn main() {
